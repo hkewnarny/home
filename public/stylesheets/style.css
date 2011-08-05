@@ -2,11 +2,13 @@ header {
   font-size: 1em;
   background-color:#f0f0f0;
 }
+
 header li {
   display: inline;
   list-style-type: none; 
   padding-right: 20px;
 }
+
 footer {
   font-family: Verdana;
   font-size: 0.7em;
@@ -23,14 +25,15 @@ footer {
 }
 
 #main-container {
+	width:650px;
 }
 
 #right-container {
+	width: 300px;
 }
 
 .container div{
 	float: left;
-	width: 33%;
 }
 
 div.clear {
