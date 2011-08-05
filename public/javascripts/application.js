@@ -6,8 +6,7 @@ $(function() {
 	var $sharingContainer = $("#social_container");
 	$(window).scroll(function() {
 		$sharingContainer.stop().animate(
-			{marginTop: $(window).scrollTop() + "px"},
-			"slow"
-			);
+			{ marginTop: $(window).scrollTop() + "px" },
+			100);
 	});
 });
