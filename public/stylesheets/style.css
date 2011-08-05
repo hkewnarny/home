@@ -1,0 +1,14 @@
+header {
+  font-size: 1em;
+  background-color:#f0f0f0;
+}
+footer {
+  font-family: Verdana;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+#test {
+  background-color: #fff;
+  font-size: 5em;
+}
