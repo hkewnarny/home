@@ -5,6 +5,7 @@ header {
 header li {
   display: inline;
   list-style-type: none; 
+  padding-right: 20px;
 }
 footer {
   font-family: Verdana;
@@ -12,7 +13,10 @@ footer {
   text-align: center;
 }
 
-#test {
-  background-color: #fff;
-  font-size: 5em;
+#social_container {
+  display: block;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px;
+  width: 5%;
 }
