@@ -7,6 +7,7 @@ $(function() {
 	$(window).scroll(function() {
 		$sharingContainer.stop().animate(
 			{ marginTop: $(window).scrollTop() + "px" },
-			100);
+			100);  
+		//$sharingContainer.css( { "position" : "fixed", "top" : "50px" });
 	});
 });

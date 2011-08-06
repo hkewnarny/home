@@ -26,6 +26,8 @@ footer {
 
 #main-container {
 	width:650px;
+	/* position: relative; */
+	left: 110px;
 }
 
 #right-container {
