@@ -5,9 +5,9 @@
 $(function() {
 	var $sharingContainer = $("#social_container");
 	$(window).scroll(function() {
-		$sharingContainer.stop().animate(
-			{ marginTop: $(window).scrollTop() + "px" },
-			100);  
-		//$sharingContainer.css( { "position" : "fixed", "top" : "50px" });
+		//$sharingContainer.stop().animate(
+	//		{ marginTop: $(window).scrollTop() + "px" },
+	//		100);  
+		$sharingContainer.css( { "position" : "fixed", "top" : "50px" });
 	});
 });
